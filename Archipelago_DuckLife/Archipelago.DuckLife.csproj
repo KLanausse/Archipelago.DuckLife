@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Nullable>enable</Nullable>
+    <IsPublishable>False</IsPublishable>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <SignAssembly>False</SignAssembly>
+    <PackAsTool>False</PackAsTool>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ArchipelagoButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ArchipelagoButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Archipelago.MultiClient.Net" Version="5.0.6" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\MelonLoader\net35\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\SteamLibrary\steamapps\common\Duck Life Retro Pack\Retro Pack_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

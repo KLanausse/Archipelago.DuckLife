@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Archipelago.DuckLife", "Archipelago_DuckLife\Archipelago.DuckLife.csproj", "{95F78281-6CAF-4D8C-B324-511B1A06D9CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F78281-6CAF-4D8C-B324-511B1A06D9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F78281-6CAF-4D8C-B324-511B1A06D9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F78281-6CAF-4D8C-B324-511B1A06D9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F78281-6CAF-4D8C-B324-511B1A06D9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26329791-9517-47FA-B2F2-3557CE9D42E3}
+	EndGlobalSection
+EndGlobal
