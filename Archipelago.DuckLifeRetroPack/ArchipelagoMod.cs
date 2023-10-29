@@ -78,7 +78,7 @@ namespace Archipelago.DuckLife
             GameObject ArchipelagoButton = new GameObject("Archipelago button");
             ArchipelagoButton.layer = LayerMask.NameToLayer("MenuFG");
             ArchipelagoButton.transform.SetParent(GameObject.Find("Menus").transform.Find("MainMenu"));
-            ArchipelagoButton.AddComponent<SpriteRenderer>().sprite = CreateSprite(LoadImage("Archipelago.DuckLife.Resources.ArchipelagoButton.png"));
+            ArchipelagoButton.AddComponent<SpriteRenderer>().sprite = CreateSprite(LoadImage("Archipelago.DuckLifeRetroPack.Resources.ArchipelagoButton.png"));
             ArchipelagoButton.transform.position = new Vector3(3.83f, -4.3672f, 0f);
             ArchipelagoButton.transform.localScale = new Vector3(0.01f, 0.01f, 0);
             ArchipelagoButton.AddComponent<BoxCollider2D>();
