@@ -74,7 +74,7 @@ public class ArchipelagoBtn : MonoBehaviour
     private Vector2 startCoordinates;
 
     // Token: 0x0400046E RID: 1134
-    public float time = 100;
+    public float time = 70;
     //71 if going diangnal
 
     // Token: 0x0400046F RID: 1135

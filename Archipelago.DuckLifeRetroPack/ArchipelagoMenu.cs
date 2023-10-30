@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
 namespace Archipelago.DuckLife
 {
-    internal class ArchipelagoMenu
+    internal class ArchipelagoMenu : MenuSwitch
     {
-        public ArchipelagoBtn Btn;
-
-        private void OnMouseDown()
-        {
-            Btn.MoveToMenuFromArchipelago();
-        }
+        
     }
 }
